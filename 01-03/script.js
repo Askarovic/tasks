@@ -12,6 +12,17 @@ let newArray = numbers.map((value)=>{
 })
 console.log(newArray);
 
+const numbers = [4,1,1,1,4]; 
+let newArray = numbers.map((value)=>{
+   return value*2;
+})
+console.log(newArray);
+
+const numbers = [2,2,2,2,2,2]; 
+let newArray = numbers.map((value)=>{
+   return value*2;
+})
+console.log(newArray);
 
 
 /* 2) Имеется массив с элементами 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20;     
