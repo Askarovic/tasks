@@ -12,25 +12,25 @@ let newArray = numbers.map((value)=>{
 })
 console.log(newArray);
 
-const numbers = [4,1,1,1,4]; 
-let newArray = numbers.map((value)=>{
+const arr = [4,1,1,1,4]; 
+let camelCase = arr.map((value)=>{
    return value*2;
 })
-console.log(newArray);
+console.log(camelCase);
 
-const numbers = [2,2,2,2,2,2]; 
-let newArray = numbers.map((value)=>{
+const numa = [2,2,2,2,2,2]; 
+let arrCase = numa.map((value)=>{
    return value*2;
 })
-console.log(newArray);
+console.log(arrCase);
 
 
 /* 2) Имеется массив с элементами 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20;     
    Нужно найти перебирая эти элементы с помощью цикла четные числа.
    И эти найденные четные числа должны быть собраны в одном массиве. */
 
-   const arr = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20 ];
-   let newArr = arr.filter( (value)=>
+   const nums = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20 ];
+   let newArr = nums.filter( (value)=>
         value % 2 == 0
    )
     console.log(newArr);
