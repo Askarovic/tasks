@@ -1,4 +1,4 @@
-let num = [2, 3, 4, 5, 6, 7];
+/* let num = [2, 3, 4, 5, 6, 7];
 let sum = 1;
 for(i=0; i<num.length; i++){
     sum *= num[i]
@@ -8,7 +8,7 @@ for(i=0; i<num.length; i++){
 }
 console.log(sum);
 console.log(obj);
-
+ */
 
 /* reduce */
 
@@ -52,3 +52,7 @@ console.log(nyFunc('a', 3)) */
    }
 
    console.log(myFunc(data)) */
+
+
+
+ 
