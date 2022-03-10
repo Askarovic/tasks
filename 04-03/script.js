@@ -57,6 +57,11 @@ let btnSum = document.getElementById('sc')
          alert('кол-во чисел - ${i}')
      }
 
+
+
+
+     
+
      let date = new Date;
 
      function getDate(){
